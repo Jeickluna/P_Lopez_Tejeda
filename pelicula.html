@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <center>
+            <img src="img/author-image.png">
+            <h1>Jessica Abigail López Tejeda</h1>
+            <h5>Estudiante UACM</h5>
+        </center>
+        <ul>
+            <center>
+                <li><a href="index.html#Acerca"><button class="btn-menu">Educación</button></a></li>
+                <li><a href="index.html#Conocimiento"><button class="btn-menu">Hobies</button></a></li>
+                <li><a href="index.html#Trabajo"><button class="btn-menu">Experiencia laboral</button></a></li>
+                <li><a href="pelicula.html"><button class="btn-menu">Tiempo libre</button></a></li>
+                <li><a href="index.html#Contacto"><button class="btn-menu">Trabajos</button></a></li>
+                <br>
+                <li>
+                    <a href="https://www.facebook.com/abigail.tejeda.104" target="_blank" title ="facebook"><button class="btn-red"><i class="fab fa-facebook-f"></i>&nbsp;</button></a>
+                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" target="_blank" title="twitter"><button class="btn-red"><i class="fab fa-twitter"></i>&nbsp;</button></a>
+                    <a href="https://www.linkedin.com/login/es" target="_blank" title="linkedin"><button class="btn-red"><i class="fab fa-linkedin-in"></i>&nbsp;</button></a>
+                    <button class="btn-red" title="reagate"><i class="far fa-circle"></i>&nbsp;</button>
+                    <a href="https://dashboard.rss.com/es/auth/sign-in/" target="_blank" title="rss"><button class="btn-red"><i class="fas fa-rss"></i>&nbsp;</button></a>
+                </li>
+            </center>
+
+        </ul>
+    </div>
+    <div class="contenedor">
+        <div id="pelicula" class="bloque-der">
+            <center>
+                <h1>Películas</h1>
+                <hr width="10%" color="#a63e49">
+                <p id="centrado">Les presento mi top 5 de peliculas, series y juegos favoritos, En este apartado puedes agregar alguna pelicula o serie que me desees recomendar.</p>
+                <button class="btn-add" id = 'btnAdd'><i id="add" class="fas fa-plus-square"></i>&nbsp;</button>
+                <button class="btn-delete" id = 'btnDelete'><i id="delete" class="fas fa-backspace"></i>&nbsp;</button>
+            </center>
+        </div>
+        <div class="tabla">
+            <table id="table-peli">
+                <thead>
+                    <tr>
+                        <th>Top</th>
+                        <th>Pelicula</th>
+                        <th>Calificación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="renglones" id="fila_1">
+                        <td>1</td>
+                        <td>Fornite</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class="renglones" id="fila_2">
+                        <td>2</td>
+                        <td>Cuphead</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class="renglones" id="fila_3">
+                        <td>3</td>
+                        <td>Interestelar</td>
+                        <td>10</td>
+                    </tr>
+                    <tr class="renglones" id="fila_4">
+                        <td>4</td>
+                        <td>Atypical</td>
+                        <td>9</td>
+                    </tr>
+                    <tr class="renglones" id="fila_5">
+                        <td>5</td>
+                        <td>El viaje de chihiro</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        <div class="imapeli">
+            <center id="centerImagen">
+                <h3>Fornite</h3>
+                <img class="peli-ima" id="pelicam" src="imgpeli/f.jpg">
+            </center>
+        </div>
+        </div>
+        
+
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/f24051bb43.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
